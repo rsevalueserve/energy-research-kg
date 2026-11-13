@@ -1,0 +1,17 @@
+# Neo4j Aura credentials - never commit
+.env
+Neo4j-*.txt
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Course notes
+email.md.txt
