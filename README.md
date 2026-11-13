@@ -19,7 +19,7 @@ The results are in [`results/query_results.csv`](results/query_results.csv) (Que
 
 ## How I designed the graph
 
-I started from the questions, not the documents. For each question I asked what it needs to reach in the graph and how to get there in as few hops as possible. I left out everything the questions don't use, so the graph stays easy to read.
+I started from the questions, not the documents. For each question I asked what it needs to reach in the graph and how to get there in as few hops as possible. Every entity and relationship in the graph is used by at least one question.
 
 ```mermaid
 graph LR
